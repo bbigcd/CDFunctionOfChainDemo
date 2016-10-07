@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		54F2632D1DA7D3CC001B3309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F2632C1DA7D3CC001B3309 /* main.m */; };
 		54F263301DA7D3CC001B3309 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F2632F1DA7D3CC001B3309 /* AppDelegate.m */; };
-		54F263331DA7D3CC001B3309 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F263321DA7D3CC001B3309 /* MasterViewController.m */; };
-		54F263361DA7D3CC001B3309 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F263351DA7D3CC001B3309 /* DetailViewController.m */; };
-		54F263391DA7D3CC001B3309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F263371DA7D3CC001B3309 /* Main.storyboard */; };
 		54F2633B1DA7D3CC001B3309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F2633A1DA7D3CC001B3309 /* Assets.xcassets */; };
 		54F2633E1DA7D3CC001B3309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F2633C1DA7D3CC001B3309 /* LaunchScreen.storyboard */; };
 		54F263491DA7D3CC001B3309 /* CDFunctionOfChainDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F263481DA7D3CC001B3309 /* CDFunctionOfChainDemoTests.m */; };
 		54F263541DA7D3CC001B3309 /* CDFunctionOfChainDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F263531DA7D3CC001B3309 /* CDFunctionOfChainDemoUITests.m */; };
+		54F263631DA7D4BB001B3309 /* CDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F263621DA7D4BB001B3309 /* CDMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +38,6 @@
 		54F2632C1DA7D3CC001B3309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54F2632E1DA7D3CC001B3309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54F2632F1DA7D3CC001B3309 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		54F263311DA7D3CC001B3309 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		54F263321DA7D3CC001B3309 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		54F263341DA7D3CC001B3309 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		54F263351DA7D3CC001B3309 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		54F263381DA7D3CC001B3309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54F2633A1DA7D3CC001B3309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F2633D1DA7D3CC001B3309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F2633F1DA7D3CC001B3309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +47,8 @@
 		54F2634F1DA7D3CC001B3309 /* CDFunctionOfChainDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDFunctionOfChainDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F263531DA7D3CC001B3309 /* CDFunctionOfChainDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDFunctionOfChainDemoUITests.m; sourceTree = "<group>"; };
 		54F263551DA7D3CC001B3309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F263611DA7D4BB001B3309 /* CDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMainViewController.h; sourceTree = "<group>"; };
+		54F263621DA7D4BB001B3309 /* CDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +101,8 @@
 			children = (
 				54F2632E1DA7D3CC001B3309 /* AppDelegate.h */,
 				54F2632F1DA7D3CC001B3309 /* AppDelegate.m */,
-				54F263311DA7D3CC001B3309 /* MasterViewController.h */,
-				54F263321DA7D3CC001B3309 /* MasterViewController.m */,
-				54F263341DA7D3CC001B3309 /* DetailViewController.h */,
-				54F263351DA7D3CC001B3309 /* DetailViewController.m */,
-				54F263371DA7D3CC001B3309 /* Main.storyboard */,
+				54F263611DA7D4BB001B3309 /* CDMainViewController.h */,
+				54F263621DA7D4BB001B3309 /* CDMainViewController.m */,
 				54F2633A1DA7D3CC001B3309 /* Assets.xcassets */,
 				54F2633C1DA7D3CC001B3309 /* LaunchScreen.storyboard */,
 				54F2633F1DA7D3CC001B3309 /* Info.plist */,
@@ -212,7 +204,6 @@
 				TargetAttributes = {
 					54F263271DA7D3CC001B3309 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 7E2J7CUZTM;
 					};
 					54F263431DA7D3CC001B3309 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -253,7 +244,6 @@
 			files = (
 				54F2633E1DA7D3CC001B3309 /* LaunchScreen.storyboard in Resources */,
 				54F2633B1DA7D3CC001B3309 /* Assets.xcassets in Resources */,
-				54F263391DA7D3CC001B3309 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54F263301DA7D3CC001B3309 /* AppDelegate.m in Sources */,
-				54F263331DA7D3CC001B3309 /* MasterViewController.m in Sources */,
+				54F263631DA7D4BB001B3309 /* CDMainViewController.m in Sources */,
 				54F2632D1DA7D3CC001B3309 /* main.m in Sources */,
-				54F263361DA7D3CC001B3309 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +306,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54F263371DA7D3CC001B3309 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54F263381DA7D3CC001B3309 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54F2633C1DA7D3CC001B3309 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,7 +401,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CDFunctionOfChainDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chendi.CDFunctionOfChainDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,7 +414,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CDFunctionOfChainDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chendi.CDFunctionOfChainDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +490,7 @@
 				54F2635A1DA7D3CC001B3309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54F2635B1DA7D3CC001B3309 /* Build configuration list for PBXNativeTarget "CDFunctionOfChainDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +499,7 @@
 				54F2635D1DA7D3CC001B3309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54F2635E1DA7D3CC001B3309 /* Build configuration list for PBXNativeTarget "CDFunctionOfChainDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +508,7 @@
 				54F263601DA7D3CC001B3309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
